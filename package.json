@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Тестовое задание",
+  "devDependencies": {
+    "autoprefixer": "6.7.x",
+    "browser-sync": "2.18.12",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.4.0"
+  },
+  "scripts": {
+    "build": "gulp style",
+    "start": "gulp serve"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "sass/**/*.{sass,scss}",
+    "less/**/*.less"
+  ],
+  "engines": {
+    "node": "6.11.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-aria": "^1.6.8",
+    "angular-material": "^1.1.6"
+  }
+}
